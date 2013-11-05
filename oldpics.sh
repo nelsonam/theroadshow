@@ -1,10 +1,9 @@
 #!/bin/bash
 
 cd /home/allison/images/
-
 FILES=/home/allison/images/
 
-for f in $FILES
+for f in $FILES # goes through the old pics
 do
-    DISPLAY=:0 timeout 15s feh -F $i # displays the image for 15 seconds
+    DISPLAY=:0 feh -F --hide-pointer --slideshow-delay 5 $f # display each old pic for 5 sec continuously
 done

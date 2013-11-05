@@ -13,7 +13,6 @@ for u in $urls
 	echo ""
     else
 	wget -c $u
-	DISPLAY=:0 timeout 15s feh -F $i
+	DISPLAY=:0 timeout 15s feh -F --hide-pointer $i # displays the image for 15 seconds
     fi
   done
-#DISPLAY=:0 feh -F http://elcaminoespectaculo.com/splash2.png
