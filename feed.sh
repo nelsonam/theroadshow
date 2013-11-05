@@ -13,6 +13,6 @@ for u in $urls
 	echo ""
     else
 	wget -c $u
-	DISPLAY=:0 timeout 15s feh -F --hide-pointer $i # displays the image for 15 seconds
+	DISPLAY=:0 timeout 15s feh -F --hide-pointer --auto-zoom $i # displays the image for 15 seconds
     fi
   done
