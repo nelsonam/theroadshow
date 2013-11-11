@@ -12,6 +12,7 @@ Required:
 2. Internet Access
 3. A website and a host with support for PHP
 4. The PHPFlickr Library (http://phpflickr.com/)
+5. Feh (http://feh.finalrewind.org/)
 
 What the files do and how to use them:
 --------------
